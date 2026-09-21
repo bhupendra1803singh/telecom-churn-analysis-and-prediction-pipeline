@@ -33,7 +33,7 @@ telecom-churn-prediction-pipeline/
 ├── dashboard/
 │   └── churn_analysis_and_prediction_dashboard.pbix        # Power BI report
 ├── images/                        # Charts & dashboard screenshots (see below)
-├── requirements.txt
+├── requirement.txt
 └── README.md
 ```
 
