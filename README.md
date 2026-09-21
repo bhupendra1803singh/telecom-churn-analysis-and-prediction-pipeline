@@ -7,7 +7,7 @@
 Customer churn is one of the most expensive problems in the telecom industry — acquiring a new customer typically costs far more than retaining an existing one. This project builds a complete pipeline that takes raw customer records, provide analytics on the existing churned customers, all the way to an actionable list of **at-risk new customers**.
 
 1. **SQL Server** — stage, clean, and productionize the raw data.
-2. **Python / scikit-learn** — train a classifier on historical churn outcomes and score new customers.
+2. **Python / Scikit-Learn** — train a classifier on historical churn outcomes and score new customers.
 3. **Power BI** — visualize churn drivers and demographics for stakeholders.
 
 The dataset covers **6,418 telecom customers** across Indian states (Delhi, Maharashtra, Tamil Nadu, West Bengal, etc.), with 32 attributes spanning demographics, subscribed services, contract terms, and billing.
