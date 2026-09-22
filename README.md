@@ -14,32 +14,41 @@ The dataset covers **6,418 telecom customers** across Indian states (Delhi, Maha
 
 ---
 
+## 📸 Preview
+
+| Churn Summary | Prediction Summary |
+|---|---|
+| ![Churn Summary](images/dashboard_summary.png) | ![Prediction Summary](images/dasboard_prediction_analysis.png) |
+
 ## 📂 Repository Structure
 
 ```
-telecom-churn-prediction-pipeline/
+telecom-churn-analysis-and-prediction-pipeline/
+
+├── dashboard/
+│   └── churn_analysis_and_prediction_dashboard.pbix        # Power BI report
 ├── data/
 │   ├── Customer_Data.csv          # Raw source data (6,418 customers, 32 columns)
 │   └── prediction_data.xlsx       # vw_ChurnData & vw_JoinData exported from SQL
+├── images/
+|      ├── dasboard_prediction_analysis.png
+|      └── dashboard_summary.png
+├── notebooks/
+│   └── predictive_analysis.ipynb  # Random Forest training, evaluation, and scoring
+├── output/
+│   └── Predictions.csv            # New customers flagged as likely to churn
 ├── sql/
 │   ├── 01_data_exploration.sql             # Distribution checks (Gender, Contract, State, Status)
 │   ├── 02_check_null_values.sql            # Null audit + churn-logic integrity checks
 │   ├── 03_remove_nulls_and_insert_into_prod_table.sql  # Clean stg_Churn -> prod_Churn
 │   └── 04_create_view_for_PowerBI.sql      # vw_ChurnData & vw_JoinData views
-├── notebooks/
-│   └── predictive_analysis.ipynb  # Random Forest training, evaluation, and scoring
-├── output/
-│   └── Predictions.csv            # New customers flagged as likely to churn
-├── dashboard/
-│   └── churn_analysis_and_prediction_dashboard.pbix        # Power BI report
-├── images/                        # Charts & dashboard screenshots (see below)
-├── requirement.txt
-└── README.md
+├── README.md 
+└── requirement.txt
 ```
 
 ## 🧰 Tech Stack
 
 - **Databases:** Excel, Microsoft SQL Server (T-SQL)
-- **ML/Analysis:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Joblib
+- **Predictive Analysis:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Joblib
 - **BI:** Power BI
 - **Environment:** Jupyter Notebook
