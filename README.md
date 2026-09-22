@@ -1,4 +1,4 @@
-# 📡 Telecom Customer Churn Analysis & Prediction Pipeline
+# 📡 Telecom Churn Analysis & Prediction Pipeline
 
 **An End-To-End Churn Analytics Solution: Excel → SQL Server ETL → Random Forest Prediction → Power BI Dashboard Analytics.**
 
