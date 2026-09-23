@@ -52,5 +52,5 @@ telecom-churn-analysis-and-prediction-pipeline/
 
 - **Databases:** Excel, Microsoft SQL Server (T-SQL)
 - **Predictive Analysis:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Joblib
-- **BI:** Power BI
+- **BI & Analytics:** Power BI
 - **Environment:** Jupyter Notebook
