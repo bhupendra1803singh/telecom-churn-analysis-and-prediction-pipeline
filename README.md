@@ -48,7 +48,7 @@ telecom-churn-analysis-and-prediction-pipeline/
 └── requirement.txt
 ```
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
 - **Databases:** Excel, Microsoft SQL Server (T-SQL)
 - **Predictive Analysis:** Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, Joblib
