@@ -26,7 +26,7 @@ The dataset covers **6,418 telecom customers** across Indian states (Delhi, Maha
 
 ```
 telecom-churn-analysis-and-prediction-pipeline/
-
+│
 ├── dashboard/
 │   └── churn_analysis_and_prediction_dashboard.pbix        # Power BI report
 ├── data/
