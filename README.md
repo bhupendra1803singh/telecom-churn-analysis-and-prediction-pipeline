@@ -45,7 +45,7 @@ telecom-churn-analysis-and-prediction-pipeline/
 │   ├── data_cleaning.ipynb                      # Cleaning, validation, and data split
 │   └── predictive_model_random_forest.ipynb     # Random Forest + scoring
 ├── README.md 
-└── requirement.txt
+└── requirements.txt
 ```
 
 ## 🛠️ Tech Stack
