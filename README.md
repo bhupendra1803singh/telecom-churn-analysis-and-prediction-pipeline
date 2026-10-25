@@ -8,7 +8,7 @@ Customer churn is one of the most expensive problems in the telecom industry —
 
 1. **Python / Pandas:** Cleaned and validated the raw data, then split it into historical customers (Churned / Stayed) and new customers (Joined).
 2. **Python / Scikit-Learn:** Trained a classifier on historical churn outcomes and score new customers.
-3. **Power BI** — Visualised churn drivers and demographics, and profiled the customers predicted to churn.
+3. **Power BI:** Visualised churn drivers and demographics, and profiled the customers predicted to churn.
 
 The dataset covers **6,311 telecom customers** across Indian states (Delhi, Maharashtra, Tamil Nadu, West Bengal, etc.), with 32 attributes spanning demographics, subscribed services, contract terms, and billing.
 
